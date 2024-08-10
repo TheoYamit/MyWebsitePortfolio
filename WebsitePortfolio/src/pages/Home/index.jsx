@@ -1,12 +1,10 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-
+import Navbar from '../../components/Navbar';
 const Home = () => {
 
   return (
-    <Box>
-      Hola
-    </Box>
+    <Navbar/>
   )
 }
+
+export default Home;
