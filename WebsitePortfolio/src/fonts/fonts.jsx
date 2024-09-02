@@ -3,7 +3,7 @@ import './font.css';
 
 const theme = extendTheme({
     fonts: {
-        heading: `'proximanova regular'`,
+        heading: `'proximanova regular', proximanova`,
         body:  `'promixanova regular'`
     }
 });
