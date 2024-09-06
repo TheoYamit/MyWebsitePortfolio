@@ -1,0 +1,33 @@
+.logo-size {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.cover-size {
+    width: 751px;
+    height: 369px;
+    object-fit: cover;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+.logo-pulse {
+    transition: transform 0.6s ease-in-out;
+}
+  
+.logo-pulse:hover {
+    animation: pulse 0.6s infinite;
+}
+  
+
