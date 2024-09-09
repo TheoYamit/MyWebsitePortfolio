@@ -19,6 +19,9 @@ import python from '../../assets/logos/python.svg';
 import streamlit from '../../assets/logos/streamlit.svg';
 import tensorflow from '../../assets/logos/tensorflow.svg';
 import kaggle from '../../assets/logos/kaggle.svg';
+import keras from '../../assets/logos/keras.svg';
+import jupyter from '../../assets/logos/jupyter.svg';
+import opencv from '../../assets/logos/opencv.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -103,6 +106,10 @@ const Projects = () => {
             <HStack p={4} gap={10} wrap='wrap' justifyContent='start' alignItems='center'>
               <Image className='logo-size logo-pulse' src={tensorflow} />
               <Image className='logo-size logo-pulse' src={kaggle} />
+              <Image className='logo-size logo-pulse' src={keras} />
+              <Image className='logo-size logo-pulse' src={python} />
+              <Image className='logo-size logo-pulse' src={jupyter} />
+              <Image className='logo-size logo-pulse' src={opencv} />
             </HStack>
             <HStack p={4} gap={1} justifyContent='end' alignItems='center'>
               <Text fontFamily='proximanova bold'> Read more</Text>
